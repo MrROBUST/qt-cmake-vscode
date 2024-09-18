@@ -1,0 +1,23 @@
+﻿// cmake-tools-kits.json example
+//
+//  {
+//    "name": "Clang-cl",
+//    "isTrusted": true,
+//    "preferredGenerator": {
+//      "name": "Ninja"
+//    },
+//    "compilers": {
+//      "C": "clang-cl.exe",
+//      "CXX": "clang-cl.exe"
+//    },
+//    "environmentSetupScript" : "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat",
+//    "keep": true
+//  }
+
+{
+    "cmake.buildDirectory":"${workspaceFolder}/build/${buildType}",
+    "cmake.copyCompileCommands":"${workspaceFolder}/compile_commands.json",
+    "cmake.configureArgs": [
+        "-DQt6_ROOT=C:\\qt\\6.8"
+    ]
+}
