@@ -11,6 +11,8 @@
             "program": "${command:cmake.getLaunchTargetPath}",
             "cwd": "${command:cmake.getLaunchTargetDirectory}",
             "args": [],
+            "visualizerFile": "${workspaceFolder}/.vscode/qt6.natvis",
+            "showDisplayString": true
         }
     ]
 }
