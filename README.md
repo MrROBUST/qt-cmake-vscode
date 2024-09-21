@@ -56,7 +56,7 @@ Configure `cmake-tools-kits.json` to use `vcvars64.bat` and preferred tools, for
 
 Set CMake options to use the required kit, configuration, and build target.
 
-Run configure CMake cache and build the target executable.
+Configure CMake cache and build the target executable.
 
 Run the debug with `cppvsdbg`, `.natvis` should work.
 
